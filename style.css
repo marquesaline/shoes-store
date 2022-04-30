@@ -1,0 +1,45 @@
+.root {
+    --cor-primaria: #FFF;
+    --cor-secundaria: #C2185B;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+li {
+    list-style-type: none;
+}
+header {
+    display: flex;
+    margin: 0% 3%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+      
+}
+
+#logoHeader {
+    width: 150px;
+    height: auto;
+}
+nav { 
+    color: #777777;
+    font-size: 14px;
+    font-weight: 600; 
+}
+nav ul {
+    display: flex;
+        
+}
+nav li {
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+}
