@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+li {
+    list-style-type: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#logoHeader {
+    width: 150px;
+    height: auto;
+}
+.divNav {
+    width: 40%;
+    
+}
+nav { 
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;   
+}
+
+nav a {
+    text-decoration: none;
+    color: #777777;
+}
+
+
+
+footer {
+    background-color: #C2185B;
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-around;
+    color: #FFF;
+}
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+.footerLogo {
+  padding-left: 5%;
+  
+}
+.categorias, .institucional {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+}
+.categorias {
+    width: 10%;
+}
+.institucional {
+    width: 50%;
+}
+.listaTitulos {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.itemListaFooter {
+    padding-bottom: 3px;
+}
+
+.itemListaFooter:hover {
+    text-shadow: 0 0 3px rgb(255 255 255 / 50%), 0 0 5px rgb(255 255 255 / 50%);
+}

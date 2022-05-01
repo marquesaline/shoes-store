@@ -40,6 +40,9 @@ nav a {
     text-decoration: none;
     color: #777777;
 }
+.itemListaNav:hover {
+    text-shadow: 0 0 3px rgb(255 255 255), 0 0 5px rgb(255 255 255);
+}
 .banner {
     display: flex;
 }
@@ -144,6 +147,7 @@ footer a {
     color: #FFF;
 }
 
+
 .footerLogo {
   padding-left: 5%;
   
@@ -165,6 +169,10 @@ footer a {
     font-weight: bold;
     padding-bottom: 5px;
 }
-.itemLista {
+.itemListaFooter {
     padding-bottom: 3px;
+}
+
+.itemListaFooter:hover {
+    text-shadow: 0 0 3px rgb(255 255 255 / 50%), 0 0 5px rgb(255 255 255 / 50%);
 }
