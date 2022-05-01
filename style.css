@@ -99,6 +99,7 @@ nav a {
 }
 .sectionSandalias {
     padding-top: 7%;
+    padding-bottom: 5%;
 }
 .divSandalias {
     display: flex;
@@ -129,4 +130,41 @@ nav a {
 #sandaliaImg1 {
     height: 663px;
     margin-top: 7%;
+}
+
+footer {
+    background-color: #C2185B;
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-around;
+    color: #FFF;
+}
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footerLogo {
+  padding-left: 5%;
+  
+}
+
+
+.categorias, .institucional {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+}
+.categorias {
+    width: 10%;
+}
+.institucional {
+    width: 50%;
+}
+.listaTitulos {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.itemLista {
+    padding-bottom: 3px;
 }
