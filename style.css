@@ -1,8 +1,3 @@
-.root {
-    --cor-primaria: #FFF;
-    --cor-secundaria: #C2185B;
-
-}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -23,7 +18,6 @@ header {
     padding-left: 3%;
     padding-right: 3%;
 }
-
 #logoHeader {
     width: 150px;
     height: auto;
@@ -74,4 +68,56 @@ nav a {
 }
 #estiloImg2 {
     margin-left: 2%;
+}
+.sectionSapatos {
+    background-color: #C2185B;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+#p30 {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.divSapatos {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.sapatos{
+    background-color: #FFF;
+}
+.descricaoSapatos {
+    padding: 4%;
+    font-size: 16px;
+}
+.descricaoTitulo {
+    font-weight: bold;
+}
+.sectionSandalias {
+    padding-top: 7%;
+}
+.divSandalias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.divSandalias p {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.sandaliaColuna1 {
+    display: flex;
+    flex-direction: column;
+}
+.sandaliaColuna1 span {
+    padding-bottom: 5%;
+}
+#buttonDetalhes {
+    width: 403px;
+    height: 99px;
 }
