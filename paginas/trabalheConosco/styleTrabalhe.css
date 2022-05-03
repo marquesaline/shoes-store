@@ -41,7 +41,11 @@ nav a {
     color: #777777;
 }
 
-
+.divMain {
+    display: flex;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
 
 footer {
     background-color: #C2185B;

@@ -26,7 +26,7 @@
         </div>
     </header>
     <main>
-        <div>
+        <div class="divMain">
             <div class="divFormulario">
                 <h2>Faça parte do nosso time</h2>
                 <form>
@@ -45,17 +45,39 @@
                     </div>
                     <div>
                         <label for="disponibilidade">Disponilidade</label>
+                        <div class="disponibilidadeOpcoes">
+                            <input type="checkbox" id="integral" name="disponibilidade" value="Integral">
+                            <label for="integral">Integral(8h)</label>
 
-                        <input type="checkbox" id="integral" name="integral">
-                        <label>Integral(8h)</label>
+                            <input type="checkbox" id="meio" name="disponibilidade" value="Meio-Periodo">
+                            <label for="meio">Meio peíodo(4h)</label>
 
-                        <input type="checkbox" id="meio" name="meio">
-                        <label>Meio peíodo(4h)</label>
-
-                        <input type="checkbox" id="freelancer" name="freelancer">
-                        <label>Freelancer</label>
+                            <input type="checkbox" id="freelancer" name="disponibilidade" value="Freelancer">
+                            <label for="freelancer">Freelancer</label>
+                        </div>
                     </div>
+                    <div>
+                        <label for="melhorForma">Qual o melhor forma de entrarmos em contato com você?</label>
+                        <div class="melhorFormaOpcoes">
+                            <input type="radio" name="formaContato" id="formaEmail" value="Email"> 
+                            <label for="formaEmail">Email</label>
 
+                            <input type="radio" name="formaContato" id="formaLigacao" value="Ligacao">
+                            <label for="formaLigacao">Ligação</label>
+
+                            <input type="radio" name="formaContato" id="formaWhatsapp" value="WhatsApp">
+                            <label for="formaWhatsapp">WhatsApp</label>
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem"></textarea>
+                    </div>
+                    <div>
+                        <label for="curriculo">Currículo</label>
+                        <input type="file" id="curriculo" name="curriculo" accept=".doc, .docx, .pdf">
+                    </div>
                     
                 </form>
             </div>
@@ -105,7 +127,7 @@
                     <li class="itemListaFooter"><a href="">contatos</a></li>
                 </ul>
             </div>
-        
+            
     </footer>
 </body>
 </html>
