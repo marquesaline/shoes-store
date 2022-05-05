@@ -26,77 +26,92 @@
         </div>
     </header>
     <main>
-        <div class="divMain">
-            <div class="divFormulario">
-                <h2>Faça parte do nosso time</h2>
-                <form>
-                    <div>
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome">
-
-                        <label for="email">Email</label>
-                        <input type="email" id="email">
-
-                        <label for="telefone">Telefone</label>
-                        <input type="tel" id="telefone">
-
-                        <label for="departamentos">Departamentos</label>
-                        <input type="text" id="departamentos">
-                    </div>
-                    <div>
-                        <label for="disponibilidade">Disponilidade</label>
-                        <div class="disponibilidadeOpcoes">
-                            <input type="checkbox" id="integral" name="disponibilidade" value="Integral">
-                            <label for="integral">Integral(8h)</label>
-
-                            <input type="checkbox" id="meio" name="disponibilidade" value="Meio-Periodo">
-                            <label for="meio">Meio peíodo(4h)</label>
-
-                            <input type="checkbox" id="freelancer" name="disponibilidade" value="Freelancer">
-                            <label for="freelancer">Freelancer</label>
+        <div>
+            <h2 id="h2Formulario">Faça parte do nosso time</h2>
+            <div class="divMain">
+                <div class="divFormulario">
+                    <form>
+                        <div class="divInputsText">
+                            <div>
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div>
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" id="telefone">
+                            </div>
+                            <div>
+                                <label for="departamentos">Departamentos</label>
+                                <input type="text" id="departamentos">
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <label for="melhorForma">Qual o melhor forma de entrarmos em contato com você?</label>
-                        <div class="melhorFormaOpcoes">
-                            <input type="radio" name="formaContato" id="formaEmail" value="Email"> 
-                            <label for="formaEmail">Email</label>
-
-                            <input type="radio" name="formaContato" id="formaLigacao" value="Ligacao">
-                            <label for="formaLigacao">Ligação</label>
-
-                            <input type="radio" name="formaContato" id="formaWhatsapp" value="WhatsApp">
-                            <label for="formaWhatsapp">WhatsApp</label>
-
+                        <div class="divCheackbox">
+                            <label for="disponibilidade">Disponilidade</label>
+                            <div class="disponibilidadeOpcoes">
+                                <div>
+                                    <input type="checkbox" id="integral" name="disponibilidade" value="Integral">
+                                    <label for="integral">Integral(8h)</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="meio" name="disponibilidade" value="Meio-Periodo">
+                                    <label for="meio">Meio peíodo(4h)</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="freelancer" name="disponibilidade" value="Freelancer">
+                                    <label for="freelancer">Freelancer</label>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <label for="mensagem">Mensagem</label>
-                        <textarea id="mensagem"></textarea>
-                    </div>
-                    <div>
-                        <label for="curriculo">Currículo</label>
-                        <input type="file" id="curriculo" name="curriculo" accept=".doc, .docx, .pdf">
-                    </div>
-                    
-                </form>
-            </div>
-            <div> 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                </p>
-              
-                <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                        <div class="divRadios">
+                            <label for="melhorForma">Qual o melhor forma de entrarmos em contato com você?</label>
+                            <div class="melhorFormaOpcoes">
+                                <div>
+                                    <input type="radio" name="formaContato" id="formaEmail" value="Email"> 
+                                    <label for="formaEmail">Email</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="formaContato" id="formaLigacao" value="Ligacao">
+                                    <label for="formaLigacao">Ligação</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="formaContato" id="formaWhatsapp" value="WhatsApp">
+                                    <label for="formaWhatsapp">WhatsApp</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem"></textarea>
+                        </div>
+                        <div>
+                            <label for="curriculo">Currículo</label>
+                            <input type="file" id="curriculo" name="curriculo" accept=".doc, .docx, .pdf">
+                        </div>
+                        
+                    </form>
+                </div>
+                <div class="divTexto"> 
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+                    </p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    </p>
+                
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
             </div>
         </div>
     </main>
