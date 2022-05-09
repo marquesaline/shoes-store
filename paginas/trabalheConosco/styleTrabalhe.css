@@ -17,6 +17,7 @@ header {
     flex-wrap: wrap;
     padding-left: 3%;
     padding-right: 3%;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
 }
 #logoHeader {
     width: 150px;
@@ -40,29 +41,30 @@ nav a {
     text-decoration: none;
     color: #777777;
 }
+
+/*MAIN*/
 main {
-    padding-top: 5vw;
+    padding-top: 2vw;
     padding-bottom: 5vw;
-    margin: 2% 5%;
+    margin: 2vw 7vw;
 }
 #h2Formulario {
     font-size: 39px;
     color: rgba(87, 87, 87, 1);
+    margin-left: 2vw;
 }
-
-
 .divMain {
     display: flex;
     padding-top: 2vw;
-    padding-bottom: 5vw;
+    padding-bottom: 2vw;
 
 }
-
 .divFormulario {
-    width: 130vw;
+    width: 150vw;
     margin-right: 5vw;
     color: #777777;
     font-size: 20px;
+    margin-left: 2vw;
 }
 .divInputsText div {
     margin: 1vw 0;
@@ -88,6 +90,51 @@ main {
 .divRadios {
     margin-top: 1vw;
 }
+.melhorFormaOpcoes {
+    display: flex;
+    margin: 7px 0;
+}
+.melhorFormaOpcoes div {
+    margin-right: 2.8vw;
+    margin-bottom: 1vw;
+}
+.divTextArea {
+    display: block;
+}
+.divTextArea div {
+    margin-top: 5px;
+}
+.divTextArea textarea {
+    width: 100%;
+    height: 5vw;
+    margin-bottom: 1vw;
+}
+
+.divArquivo input {
+    margin-left: 1vw;
+    width: 10vw;
+    
+}
+.divFormulario button {
+    width: 100%;
+    background: #C2185B;
+    color: #FFF;
+    height: 33px;
+    font-weight: bold;
+    margin-top: 1vw;
+}
+.divTexto {
+    padding-left: 2vw;
+}
+
+.divTexto p {
+    font-size: 18px;
+    margin-bottom: 2vw;
+    line-height: 2vw;
+
+}
+
+/*FOOTER*/
 footer {
     background-color: #C2185B;
     display: flex;
